@@ -12,7 +12,7 @@ body {
     margin-top: 90px;
     margin-left: 120px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
     
     
@@ -233,11 +233,50 @@ body {
         color: #2E2E2E;
     }
 
-
     body {
         background-color: #F0F0F0;
     }
     
     .dark-mode .box {
         background-color: #1D1D1D;
+    }
+
+    @media (max-width: 768px) {
+        .box {
+            width: 700px;
+            height: 680px;
+            margin-left: -40px;
+        }
+
+        .finance {
+            margin-left: 90px;
+        }
+
+        .sidebar {
+            margin-left: -300px;
+        }
+
+        .mutual-text {
+            position: relative;
+            margin-top: -40px;
+            margin-left: 110px;
+        }
+
+        .revenue-bro {
+            margin-left: -340px;
+            width: 320px;
+            height: 320px;
+            margin-top: 190px;
+        }
+
+        .learn-more {
+            position: relative;
+            top: 20px;
+            margin-left: 160px;
+        }
+
+       .para {
+        margin-left: 110px;
+       }
+
     }

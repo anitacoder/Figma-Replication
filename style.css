@@ -1,0 +1,243 @@
+body {
+    background-color: #101010;
+    overflow-x: hidden;
+    }
+    
+  
+
+    .box {
+    background-color: #1D1D1D;
+    height: 600px;
+    width: 1170px;
+    margin-top: 90px;
+    margin-left: 120px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+    
+    
+    .header-links {
+    display: flex;
+    
+    }
+    
+    .links {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+    
+    }
+     
+    .twitter-img {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/twitter.png");
+    background-repeat: no-repeat;
+    
+    }
+    
+    
+    .facebook {
+    width: 25px;
+    height: 25px;
+    background-image: url("images/facebook.png");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    
+    }
+    
+    
+    
+    .medium {
+    width: 25px;
+    height: 25px;
+    background-image: url("images/medium.png"); 
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    
+    }
+    
+    
+    .group {
+    width: 1172px;
+    height: 44.76px;
+    background-image: url("images/Group\ 3511.png");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    
+    }
+    
+    .finance {
+    display: flex;
+    margin-left: 370px;
+    margin-top: 30px;
+    
+    }
+    
+    
+    .finance-text {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 25.64px;
+    line-height: 100%;
+    color: #EEEEEE;
+    margin-left: 39px;
+    margin-top: 7px;
+    
+    }
+      
+    .sidebar-img {
+    width: 34px;
+    height: 34px;
+    background-image: url("images/align-text-left.png");
+    background-repeat: no-repeat;
+    margin-left: -630px;
+    margin-top: 30px;
+    
+    }
+    
+    .section1 {
+    display: flex;
+    
+    }
+    
+    .revenue-bro {
+    width: 758px;
+    height: 474px;
+    background-image: url("images/Revenue-bro\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -30px;
+    margin-left: 90px;
+    
+    }
+    
+    .mutual-text {
+    top: 128px;
+    margin-left: 97px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 100%;
+    color: #D2D2D2;
+    white-space: nowrap;
+    position: relative;
+    
+    }
+    
+    
+    
+    .para {
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 25px;
+    font-family: sans-serif;
+    text-align: justify;
+    color: #A9A9A9;
+    margin-left: 90px;
+    white-space: nowrap;
+    top: 128px;
+    position: relative;
+    
+    }
+    
+    .learn-more {
+    background-color: #27AE60;
+    border-radius: 55px;
+    position: relative;
+    border: none;
+    width: 241px;
+    height: 58px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    top: -235px;
+    margin-left: 80px;
+    
+    }
+    
+    .down-img {
+    background-image: url("images/Group\ 3510.png");
+    width:403.5px;
+    height: 543.08px;
+    background-repeat: no-repeat;
+    margin-top: -19px;
+    background-size: contain;
+    
+    } 
+
+    body.dark-mode .finance-text {
+        color: #FFFFFF;
+    }
+
+    body.light-mode .finance-text {
+        color: black;
+    }
+
+    
+    .toggle-container {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    
+    .mode-toggle {
+        display: none;
+    }
+    
+    .toggle-label {
+        width: 50px;
+        height: 25px;
+        background-color: #ccc;
+        display: inline-block;
+        border-radius: 25px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .toggle-label::after {
+        content: '';
+        width: 21px;
+        height: 21px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        transition: transform 0.3s ease;
+    }
+    
+    .mode-toggle:checked + .toggle-label::after {
+        transform: translateX(25px);
+    }
+    
+    .mode-toggle:checked + .toggle-label {
+        background-color: #27AE60;
+    }
+
+    .dark-mode {
+        background-color: #101010;
+        color: #EEEEEE;
+    }
+
+    .mutual-text{
+        color: black;
+    }
+    
+    .box {
+        background-color: #F0F0F0;
+        box-shadow: #64646433;
+    }
+
+    .finance-text {
+        color: #2E2E2E;
+    }
+
+
+    body {
+        background-color: #F0F0F0;
+    }
+    
+    .dark-mode .box {
+        background-color: #1D1D1D;
+    }
